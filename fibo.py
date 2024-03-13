@@ -10,13 +10,13 @@ count = 0
 if nterms <= 0:
    print("Please enter a positive integer")
 # if there is only one term, return n1
-elif nterms == 1:
+ nterms == 1:
    print("Fibonacci sequence upto",nterms,":")
    print(n1)
 # generate fibonacci sequence
 else:
    print("Fibonacci sequence:")
-   while count < nterms:
+    count < nterms:
        print(n1)
        nth = n1 + n2
        # update values
